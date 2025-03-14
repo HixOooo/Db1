@@ -116,21 +116,25 @@
             // 
             // btnSave
             // 
+            this.btnSave.BackColor = System.Drawing.Color.Beige;
             this.btnSave.Location = new System.Drawing.Point(120, 340);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(75, 23);
             this.btnSave.TabIndex = 16;
             this.btnSave.Text = "Сохранить";
+            this.btnSave.UseVisualStyleBackColor = false;
             this.btnSave.Click += new System.EventHandler(this.BtnSave_Click);
             // 
             // btnCancel
             // 
+            this.btnCancel.BackColor = System.Drawing.Color.Beige;
             this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnCancel.Location = new System.Drawing.Point(220, 340);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 17;
             this.btnCancel.Text = "Отмена";
+            this.btnCancel.UseVisualStyleBackColor = false;
             // 
             // lblType
             // 
@@ -206,7 +210,7 @@
             // 
             // PartnerEditForm
             // 
-            this.BackColor = System.Drawing.Color.SteelBlue;
+            this.BackColor = System.Drawing.Color.DarkOliveGreen;
             this.ClientSize = new System.Drawing.Size(350, 400);
             this.Controls.Add(this.lblType);
             this.Controls.Add(this.cmbType);

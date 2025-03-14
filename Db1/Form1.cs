@@ -25,7 +25,7 @@ namespace Db1
             try
             {
                 // Путь к иконке (используем путь с вашего скриншота)
-                string iconPath = @"D:\Tex\Ty\mark\61224.jpg";
+                string iconPath = @"D:\Tex\Db1\play";
 
                 // Проверяем, существует ли файл по указанному пути
                 if (!File.Exists(iconPath))

@@ -127,6 +127,18 @@
     <Compile Include="SalesHistoryForm.Designer.cs">
       <DependentUpon>SalesHistoryForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddMaterialForm.resx">
+      <DependentUpon>AddMaterialForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaterialCalcForm.resx">
+      <DependentUpon>MaterialCalcForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartnerEditForm.resx">
+      <DependentUpon>PartnerEditForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -135,6 +147,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="SalesHistoryForm.resx">
       <DependentUpon>SalesHistoryForm.cs</DependentUpon>
@@ -152,6 +165,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clock.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

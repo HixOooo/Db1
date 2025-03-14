@@ -69,11 +69,13 @@
             // 
             // btnAddMaterial
             // 
+            this.btnAddMaterial.BackColor = System.Drawing.Color.Beige;
             this.btnAddMaterial.Location = new System.Drawing.Point(20, 200);
             this.btnAddMaterial.Name = "btnAddMaterial";
             this.btnAddMaterial.Size = new System.Drawing.Size(250, 30);
             this.btnAddMaterial.TabIndex = 3;
             this.btnAddMaterial.Text = "Добавить материал";
+            this.btnAddMaterial.UseVisualStyleBackColor = false;
             this.btnAddMaterial.Click += new System.EventHandler(this.BtnAddMaterial_Click);
             // 
             // lblProduct
@@ -81,7 +83,7 @@
             this.lblProduct.AutoSize = true;
             this.lblProduct.Location = new System.Drawing.Point(20, 20);
             this.lblProduct.Name = "lblProduct";
-            this.lblProduct.Size = new System.Drawing.Size(58, 13);
+            this.lblProduct.Size = new System.Drawing.Size(65, 13);
             this.lblProduct.TabIndex = 4;
             this.lblProduct.Text = "Продукция:";
             // 
@@ -90,7 +92,7 @@
             this.lblPartner.AutoSize = true;
             this.lblPartner.Location = new System.Drawing.Point(20, 80);
             this.lblPartner.Name = "lblPartner";
-            this.lblPartner.Size = new System.Drawing.Size(54, 13);
+            this.lblPartner.Size = new System.Drawing.Size(53, 13);
             this.lblPartner.TabIndex = 5;
             this.lblPartner.Text = "Партнер:";
             // 
@@ -105,6 +107,7 @@
             // 
             // AddMaterialForm
             // 
+            this.BackColor = System.Drawing.Color.DarkOliveGreen;
             this.ClientSize = new System.Drawing.Size(300, 250);
             this.Controls.Add(this.lblQuantity);
             this.Controls.Add(this.lblPartner);
@@ -118,6 +121,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.numQuantity)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
+
         }
     }
 }

@@ -94,11 +94,13 @@
             // 
             // btnCalculate
             // 
+            this.btnCalculate.BackColor = System.Drawing.Color.Beige;
             this.btnCalculate.Location = new System.Drawing.Point(20, 380);
             this.btnCalculate.Name = "btnCalculate";
             this.btnCalculate.Size = new System.Drawing.Size(75, 23);
             this.btnCalculate.TabIndex = 6;
             this.btnCalculate.Text = "Рассчитать";
+            this.btnCalculate.UseVisualStyleBackColor = false;
             this.btnCalculate.Click += new System.EventHandler(this.BtnCalculate_Click);
             // 
             // lblProductType
@@ -157,7 +159,7 @@
             // 
             // MaterialCalcForm
             // 
-            this.BackColor = System.Drawing.Color.SteelBlue;
+            this.BackColor = System.Drawing.Color.DarkOliveGreen;
             this.ClientSize = new System.Drawing.Size(300, 450);
             this.Controls.Add(this.lblProductType);
             this.Controls.Add(this.cmbProductType);

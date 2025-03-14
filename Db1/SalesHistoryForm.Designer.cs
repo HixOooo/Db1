@@ -29,7 +29,7 @@
             // SalesHistoryForm
             this.ClientSize = new System.Drawing.Size(800, 500);
             this.Controls.Add(this.dataGridView);
-            this.Text = $"История продаж партнера #{_partnerId}";
+            this.Text = $"История продаж{_partnerId}";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
             this.ResumeLayout(false);
         }
